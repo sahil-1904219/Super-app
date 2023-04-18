@@ -1,0 +1,35 @@
+img {
+  width: 50vw;
+  height: 100vh;
+}
+.topText {
+  position: absolute;
+  display: flex;
+  top: 4vh;
+  left: 2vw;
+  gap: 40px;
+  color: white;
+  align-items: center;
+}
+
+.topText p {
+  font-size: larger;
+  font-weight: 600;
+}
+.topText button {
+  padding: 12px 32px;
+  background: #72db73;
+  border-radius: 33px;
+  color: white;
+  box-shadow: none;
+  border: none;
+}
+.bottomText {
+  position: absolute;
+  bottom: 3vh;
+  left: 2vw;
+  color: white;
+  font-size: 55px;
+  font-weight: 900;
+  max-width: 50vw;
+}
